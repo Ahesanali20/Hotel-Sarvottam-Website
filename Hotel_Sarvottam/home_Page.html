@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL SARVOTTAM</title>
+    <link rel="stylesheet" href="home_page.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="nav-logo">
+                    <a href="#">HOTEL<br>SARVOTTAM</a>
+                </div>
+                <button type="button" class="navbar-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h4 class="welcome">Welcome to HOTEL SARVOTTAM</h4>
+            <h1 class="luxury">Experience authentic flavors and fine highway dining like never before.</h1>
+        </div>
+        <div class="Hotel-content">
+            <!-- Hotel Sarvottam Section -->
+            <div class="hotel-servottam-con">
+                <div class="about-hotel-servottam">
+                    <h3>Welcome to Hotel Sarvottam</h3>
+                    <h1>Your premium highway halt, <span class="highlight-text">illuminated for fine dining</span>.
+                    </h1>
+
+                    <p>Step into a world of authentic flavors and warm hospitality at Hotel Sarvottam. Strategically
+                        located with a grand
+                        modern structure and a massive dining hall, we are perfectly equipped to turn your journey into
+                        a delicious and
+                        refreshing break.</p>
+
+                    <p>Whether you are pulling over for a quick fast-food bite or a relaxed family dinner, our 100% Pure
+                        Vegetarian menu,
+                        premium hygiene standards, and quick service ensure a delightful culinary experience at any
+                        hour.</p>
+
+
+                </div>
+                <div class="hotel-servottam-img">
+                    <img src="./hotel-images/hotel-servottam.webp" alt="Poha">
+                </div>
+            </div>
+        </div>
+
+        <!-- Breakfast Section -->
+        <div class="Breakfast-con">
+            <h2>BreakFast</h2>
+            <h1>Revel in the <span class="highlight-text">Unmatched Comfort</span> of Morning Flavors.</h1>
+            <div class="Breakfast-imgs img-section-1">
+                <div class="img-section-1-child">
+                    <img src="./hotel-images/break fast images/poha.jpg" alt="poha">
+                    <span>Poha</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="./hotel-images/break fast images/aalu paratha.jpg" alt="aalu paratha">
+                    <span>Aalu Paratha</span>
+                </div>
+            </div>
+            <div class="Breakfast-imgs img-section-2">
+                <div class="img-section-1-child">
+                    <img src="./hotel-images/break fast images/jalebi-fafda.jpg" alt="jalebi-fafda">
+                    <span>Jalebi Fafda</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="./hotel-images/break fast images/misal pav.jpg" alt="misal-pav">
+                    <span>Misal Pav</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="./hotel-images/break fast images/Dosa.jpg" alt="dosa">
+                    <span>Dosa</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        navbarToggle.addEventListener('click', () => {
+            navbarToggle.classList.toggle('active');
+            navbarMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const menuLinks = document.querySelectorAll('.navbar-menu li a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbarToggle.classList.remove('active');
+                navbarMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
