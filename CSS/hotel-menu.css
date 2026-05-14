@@ -1,0 +1,240 @@
+body {
+  background: none;
+  color: #000;
+}
+
+/* ------- Navbar -------- */
+
+.navbar-container .left-nav li a {
+  border-right: #000 solid 2px;
+}
+
+.navbar-container .right-nav li a {
+  border-left: #000 solid 2px;
+}
+
+.navbar-container .navbar-menu li a:hover {
+  color: #f0a120;
+}
+
+.bar {
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .nav-logo a {
+    font-size: 2.4rem;
+  }
+}
+/* ------- Menu -------- */
+
+.menu-container {
+  background-color: #f0a0205e;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  width: 100%;
+  gap: 30px;
+}
+
+.menu-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.menu-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 20px;
+}
+
+.menu-type ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+}
+
+.menu-type li a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu-type li a:hover,
+.menu-type li a:active {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .menu-type ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* ------ Menu Items - Breakfast ------ */
+
+#breakfast-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+#breakfast-section h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  border: 7px double #000;
+  border-radius: 20px;
+  padding: 5px 14px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.breakfast-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+}
+
+.menu-details h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.breakfast-menu img {
+  width: 300px;
+  object-fit: cover;
+  height: 250px;
+  border-radius: 20px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #000;
+  margin: 40px 0;
+}
+
+/* ------------- LUNCH -------------- */
+
+/* ------ Menu Items - Lunch ------ */
+
+#lunch-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+#lunch-section h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  border: 7px double #000;
+  border-radius: 20px;
+  padding: 5px 14px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.lunch-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+}
+
+.lunch-menu img {
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 250px;
+}
+
+/* ------------- DINNER -------------- */
+
+/* ------ Menu Items - Dinner ------ */
+
+#dinner-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+#dinner-section h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  border: 7px double #000;
+  border-radius: 20px;
+  padding: 5px 14px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.dinner-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+}
+
+.dinner-menu img {
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 250px;
+}

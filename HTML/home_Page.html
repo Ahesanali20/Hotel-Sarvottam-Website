@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL SARVOTTAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/hotel-navbar.css">
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/hotel-footer.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <ul class="navbar-menu left-nav">
+                    <li><a href="home_Page.html">HOME</a></li>
+                    <li><a href="hotel-menu.html">RESTAURENT</a></li>
+                </ul>
+                <div class="nav-logo">
+                    <a href="home_Page.html">HOTEL</a>
+                    <a href="home_Page.html">SARVOTTAM</a>
+                </div>
+                <button type="button" class="navbar-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu right-nav">
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Mobile Sidebar -->
+        <div class="mobile-overlay"></div>
+        <div class="mobile-sidebar">
+            <ul>
+                <li><a href="home_Page.html">HOME</a></li>
+                <li><a href="hotel-menu.html">RESTAURENT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h4 class="welcome">Welcome to HOTEL SARVOTTAM</h4>
+            <h1 class="luxury">Experience authentic flavors and fine highway dining like never before.</h1>
+            <a href="hotel-menu.html" class="btn-menu">Let's See The Menu</a>
+        </div>
+
+        <!-- Hotel Sarvottam Section -->
+        <div class="Hotel-content">
+            <div class="hotel-servottam-con">
+                <div class="about-hotel-servottam">
+                    <h3>Welcome to Hotel Sarvottam</h3>
+                    <h1>Your premium highway halt, <span class="highlight-text">illuminated for fine dining</span>.
+                    </h1>
+
+                    <p>Step into a world of authentic flavors and warm hospitality at Hotel Sarvottam. Strategically
+                        located with a grand
+                        modern structure and a massive dining hall, we are perfectly equipped to turn your journey into
+                        a delicious and
+                        refreshing break.</p>
+
+                    <p>Whether you are pulling over for a quick fast-food bite or a relaxed family dinner, our 100% Pure
+                        Vegetarian menu,
+                        premium hygiene standards, and quick service ensure a delightful culinary experience at any
+                        hour.</p>
+                </div>
+                <div class="hotel-servottam-img">
+                    <img src="/hotel-images/hotel-servottam.webp" alt="Poha">
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Dishes Section -->
+        <div class="popular-dishes-con">
+            <h2>POPULAR DISHES</h2>
+            <h1>Discover the <span class="highlight-text">Authentic Taste</span> Everyone Keeps Coming Back For.</h1>
+            <div class="popular-dishes-imgs img-section-1">
+                <div class="img-section-1-child">
+                    <img src="/hotel-images/break fast images/poha.jpg" alt="poha">
+                    <span>Poha</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="/hotel-images/Special items/paneer tikka masala.jpg" alt="paneer tikka masala">
+                    <span>Paneer Tikka Masala</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="/hotel-images/Special items/panjabi thali.jpg" alt="jalebi-fafda">
+                    <span>Jalebi Fafda</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="/hotel-images/break fast images/misal pav.jpg" alt="misal-pav">
+                    <span>Misal Pav</span>
+                </div>
+                <div class="img-section-1-child">
+                    <img src="/hotel-images/Special items/lassi.jpg" alt="lassi">
+                    <span>Sarvottam Spacial Lassi</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-logo">
+            <h1>Hotel Sarvottam</h1>
+            <h2>SIMPLY THE BEST.</h2>
+        </div>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <div class="footer-nav-links">
+                    <ul>
+                        <li><a href="home_Page.html">HOME</a></li>
+                        <li><a href="hotel-menu.html">RESTAURENT</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-location">
+                <div class="hotel-location">
+                    <h3>Location</h3>
+                    <p>Ahmedabad, GJ SH 6, Vataman, Gujarat 382265</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p>Phone: +91 12345 67890</p>
+                </div>
+            </div>
+
+    </footer>
+
+    <script>
+        // Mobile Sidebar Toggle
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const mobileSidebar = document.querySelector('.mobile-sidebar');
+        const mobileOverlay = document.querySelector('.mobile-overlay');
+
+        // Toggle sidebar on hamburger click
+        navbarToggle.addEventListener('click', () => {
+            navbarToggle.classList.toggle('active');
+            mobileSidebar.classList.toggle('active');
+            mobileOverlay.classList.toggle('active');
+        });
+
+        // Close sidebar when a link is clicked
+        const sidebarLinks = document.querySelectorAll('.mobile-sidebar a');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbarToggle.classList.remove('active');
+                mobileSidebar.classList.remove('active');
+                mobileOverlay.classList.remove('active');
+            });
+        });
+
+        // Close sidebar when clicking on overlay
+        mobileOverlay.addEventListener('click', () => {
+            navbarToggle.classList.remove('active');
+            mobileSidebar.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>
