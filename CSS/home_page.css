@@ -15,6 +15,11 @@
   border-left: #fff solid 2px;
 }
 
+.navbar-container .nav-logo a {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .navbar-container .navbar-menu li a:hover {
   color: #f0a120;
 }
@@ -53,9 +58,11 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
+  padding: 0 262px;
+  margin: 8px 32px;
 }
 
 .highlight-text {
@@ -63,13 +70,13 @@
 }
 
 .btn-menu {
-  background-color: transparent;
-  color: #f0a120;
-  border: 3px solid #f0a120;
+  background-color: #f0a120;
+  color: #000;
+  border: none;
   padding: 10px 20px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 8px;
   margin: 20px 0;
   cursor: pointer;
   transition: all 0.3s ease;
