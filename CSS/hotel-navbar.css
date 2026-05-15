@@ -38,11 +38,12 @@ body {
   position: relative;
 }
 
-.nav-logo a {
+.nav-logo span {
   display: flex;
+  font-family: "Orbitron", sans-serif;
   flex-direction: column;
   align-items: center;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size: 32px;
   font-weight: 700;
@@ -105,6 +106,7 @@ body {
 
   .navbar {
     height: 80px;
+    margin-top: 20px;
   }
 
   .navbar-container {
@@ -125,10 +127,10 @@ body {
   /* Create sidebar container for mobile */
   .mobile-sidebar {
     position: fixed;
-    top: 80px;
+    top: 120px;
     left: -100%;
     width: 280px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 120px);
     background-color: rgba(0, 0, 0, 0.98);
     z-index: 999;
     transition: left 0.3s ease;
@@ -180,7 +182,7 @@ body {
   /* Mobile overlay */
   .mobile-overlay {
     position: fixed;
-    top: 80px;
+    top: 120px;
     left: 0;
     width: 100vw;
     height: 100vh;

@@ -5,6 +5,11 @@ body {
 
 /* ------- Navbar -------- */
 
+.nav-logo span {
+  color: #000;
+  font-size: 36px;
+}
+
 .navbar-container .left-nav li a {
   border-right: #000 solid 2px;
 }
@@ -22,7 +27,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .nav-logo a {
+  .nav-logo span {
     font-size: 32px;
   }
 }
@@ -54,6 +59,14 @@ body {
   max-width: 1200px;
   border-bottom: 2px solid #000;
   padding-bottom: 20px;
+}
+
+.menu-type h2 {
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 7px double #000;
+  padding: 5px 14px;
+  margin-bottom: 20px;
 }
 
 .menu-type ul {
@@ -141,6 +154,11 @@ hr {
   margin: 40px 0;
 }
 
+@media (max-width: 768px) {
+  .breakfast-menu {
+    gap: 20px;
+  }
+}
 /* ------------- LUNCH -------------- */
 
 /* ------ Menu Items - Lunch ------ */
@@ -190,6 +208,12 @@ hr {
   height: 250px;
 }
 
+@media (max-width: 768px) {
+  .lunch-menu {
+    gap: 20px;
+  }
+}
+
 /* ------------- DINNER -------------- */
 
 /* ------ Menu Items - Dinner ------ */
@@ -237,4 +261,10 @@ hr {
   border-radius: 20px;
   object-fit: cover;
   height: 250px;
+}
+
+@media (max-width: 768px) {
+  .dinner-menu {
+    gap: 20px;
+  }
 }
